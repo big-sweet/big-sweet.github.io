@@ -1,19 +1,18 @@
-<head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-  {% include meta.html %}
-  {% include fonts.html %}
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
 
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icon/apple-touch-icon.png" | absolute_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/icon/favicon-16x16.png" | absolute_url }}">
+<link rel="manifest" href="{{ "/assets/icon/manifest.json" | absolute_url }}">
+<link rel="mask-icon" href="{{ "/assets/icon/safari-pinned-tab.svg" | absolute_url }}" color="#5bbad5">
+<link rel="shortcut icon" href="{{ "/assets/icon/favicon.ico" | absolute_url }}">
+<meta name="msapplication-config" content="{{ "/assets/icon/browserconfig.xml" | absolute_url }}">
+<meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  <link rel="shortcut icon" href="{{ site.favicon }}">
-  <script src="https://kit.fontawesome.com/56f7faf3f4.js"></script>
-
-
-  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-
-</head>
+<!-- CSS -->
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}" />
+<noscript><link rel="stylesheet" href="{{ "/assets/css/noscript.css" | absolute_url }}" /></noscript>
