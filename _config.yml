@@ -40,15 +40,15 @@ logo:                  /assets/icons/icon.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Scott Catsirelis
+  email:               scottcats@gmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
   - title:             Blog
-    url:               /Blog/
+    url:               /Blog/blog.html
   - title:             About
     url:               /about/
 
