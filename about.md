@@ -21,7 +21,8 @@ image: /assets/img/egghead.png
 bigsweet, a stupid nickname for a tall, kind guy with a beard.
 {:.lead}
 
-![Screenshot](assets/img/egghead.png){:.lead srcset="/assets/img/egghead.png 1920w, data-width="1920" data-height="1080"}
+![](https://big-sweet.github.io/assets/img/egghead.png)
+
 Some stuff and things here and there.
 {:.figure}
 
