@@ -9,11 +9,11 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    bigsweet or Scott is a Microsoft consultant based in Calgary, Alberta, Canada.
+    "bigsweet" or Scott is a Microsoft consultant based in Calgary, Alberta, Canada.
 
-    You can find me actively contributing on NetSecFocus.
+    You can find me actively contributing on NetSec Focus.
 
-    Feel free to join us on our Mattermost server here <a href="https://mm.netsecfocus.com"> https://mm.netsecfocus.com</a>
+    Feel free to join us on our Mattermost server here <a href="https://mm.netsecfocus.com/join"> https://mm.netsecfocus.com/join</a>
 
   # This photo will be used in the about section.
   picture:
