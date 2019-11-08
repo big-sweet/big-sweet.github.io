@@ -17,16 +17,17 @@ hide_description: true
 # TODO
 image: /assets/img/egghead.png
 ---
+Windows and cloud specialized former sysadmin with a background in development.
 
-bigsweet, a stupid nickname for a tall, kind guy with a beard.
-{:.lead}
+Currently architecting and delivering Microsoft centric projects as a consultant.
 
-![](https://big-sweet.github.io/assets/img/egghead.png)
+Located in Calgary, Alberta, Canada. 
 
-Some stuff and things here and there.
-{:.figure}
+You can find me actively contributing on NetSecFocus, a security focused group of like-minded technical individuals.
+Feel free to join us on the Mattermost chat client here: <a href="https://mm.netsecfocus.com">https://mm.netsecfocus.com</a>
 
-**Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
 
-> Your presence on the web — A [blog], a [portfolio], and a [resume].
-{:.lead}
+
+bigsweet, a silly nickname for a big, kind guy with a beard.
+
+![](./assets/img/egghead.png)
