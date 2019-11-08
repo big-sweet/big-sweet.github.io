@@ -23,8 +23,8 @@ Currently architecting and delivering Microsoft centric projects as a consultant
 
 Located in Calgary, Alberta, Canada. 
 
-You can find me actively contributing on NetSecFocus, a security focused group of like-minded technical individuals.
-Feel free to join us on the Mattermost chat client here: <a href="https://mm.netsecfocus.com">https://mm.netsecfocus.com</a>
+You can find me actively contributing on NetSec Focus, a security focused group of like-minded technical individuals.
+Feel free to join us on the Mattermost chat client here: <a href="https://mm.netsecfocus.com/join">https://mm.netsecfocus.com/join</a>
 
 
 
