@@ -69,10 +69,10 @@ Configuration specifics for the DFS group can be found in here in the registry o
 The set of keys we are worried about in particular which reference the old Domain Controller are as follows:
 `HKLM\System\CurrentControlSet\Services\DFSR\Parameters\SYSVOLS\Seeding Sysvols\`
 
-![Seeding Sysvols Registry Entry](../assets/img/dfs/regkey.png)
+![Seeding Sysvols Registry Entry](../assets/img/dfs/regkey.PNG)
 
 Within this configuration the `Parent Computer` property was referencing the old Domain Controller.
 
-Once discovered, we stopped the DFS Replication services on every DC and renamed the `Parent Computer` property to the new authoratative DFS DC name *on all Domain Controllers*.
+Once discovered, we stopped the DFS Replication services on every DC and renamed the `Parent Computer` property to the new authoratative DFS DC name **on all Domain Controllers**.
 
-After this setting was changed and the services were restarted almost instantaneously the SYSVOL replicated across the domain.
+After this setting was changed and the services were restarted almost instantaneously the SYSVOL contents replicated across the domain, and no more event ID 5008 referencing and old DC.
