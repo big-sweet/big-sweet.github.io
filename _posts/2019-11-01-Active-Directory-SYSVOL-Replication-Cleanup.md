@@ -55,3 +55,24 @@ Resetting which server was authoritative for the replication group in ADSI did h
 However, once all of these steps were completed, event 5008 was still being recorded once the services came back up. Still referencing the old server too. Even worse, still no replication.
 
 ### Step 2: It's Always in the Registry
+In our case the repliation group was reporting healthy, yet every DC in the environment still was looking for that missing DC as an authoratative DFS group member.
+
+This was confirmed by running the following commands:
+`dfsrdiag ReplicationState /all`
+`repadmin /showrepl`
+
+Domain Controllers will store additional configuration details for the "Domain System Volume" DFS Group within the registry. This will get modified when a demotion occurs successfully, in our case it was not. 
+
+Configuration specifics for the DFS group can be found in here in the registry on each Domain Controller in the environment:
+`HKLM\System\CurrentControlSet\Services\DFSR\`
+
+The set of keys we are worried about in particular which reference the old Domain Controller are as follows:
+`HKLM\System\CurrentControlSet\Services\DFSR\Parameters\SYSVOLS\Seeding Sysvols\`
+
+![Seeding Sysvols Registry Entry](../assets/img/dfs/regkey.png)
+
+Within this configuration the `Parent Computer` property was referencing the old Domain Controller.
+
+Once discovered, we stopped the DFS Replication services on every DC and renamed the `Parent Computer` property to the new authoratative DFS DC name *on all Domain Controllers*.
+
+After this setting was changed and the services were restarted almost instantaneously the SYSVOL replicated across the domain.
