@@ -17,14 +17,14 @@ hide_description: true
 # TODO
 image: /assets/img/egghead.png
 ---
-Windows and cloud specialized former sysadmin with a background in development.
+Windows and cloud specialized former sysadmin with a background in development and a passion for security.
 
 Currently architecting and delivering Microsoft centric projects as a consultant.
 
 Located in Calgary, Alberta, Canada. 
 
 You can find me actively contributing on NetSec Focus, a security focused group of like-minded technical individuals.
-Feel free to join us on the Mattermost chat client here: <a href="https://mm.netsecfocus.com/join">https://mm.netsecfocus.com/join</a>
+Feel free to join us on the Mattermost chat client **[here](a href="https://mm.netsecfocus.com/join">https://mm.netsecfocus.com/join)**
 
 
 
