@@ -73,6 +73,6 @@ The set of keys we are worried about in particular which reference the old Domai
 
 Within this configuration the `Parent Computer` property was referencing the old Domain Controller.
 
-Once discovered, we stopped the DFS Replication services on every DC and renamed the `Parent Computer` property to the new authoratative DFS DC name **on all Domain Controllers**.
+Once discovered, we stopped the DFS Replication services on every DC and renamed the <br/> `Parent Computer` property to the new authoratative DFS DC name **on all Domain Controllers**.
 
 After this setting was changed and the services were restarted almost instantaneously the SYSVOL contents replicated across the domain, and no more event ID 5008 referencing and old DC.
