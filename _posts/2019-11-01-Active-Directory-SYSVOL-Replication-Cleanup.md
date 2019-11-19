@@ -27,7 +27,7 @@ Luckily enough for us we had a copy of known working group policies from a backu
 ### Troubleshooting
 One event log assisted us in finding the correct resolution to this problem, we'll go through it below.
 ### DFS-Replication Event ID 5008
-![Event ID 5008](../assets/img/dfs/5008.png)\
+![Event ID 5008](../assets/img/dfs/5008.png)<br/>
 On a set interval, or every time we restarted DFS replication services, this event log would be recorded on all DC's in the domain. Note that Event ID 5008 was referencing the name of the old DC which had already been removed at this point.
 
 ```
