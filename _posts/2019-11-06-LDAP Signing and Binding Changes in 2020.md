@@ -4,7 +4,7 @@ title: Mandatory LDAP Signing and LDAP Channel Binding Requirement
 date: 2019-11-06
 author: bigsweet
 ---
-Microsoft has announced that in mid-January 2020 they will be forcing LDAP channel binding and LDAP signing. 
+Microsoft has announced that in mid-March 2020 they will be forcing LDAP channel binding and LDAP signing. 
 
 This is due to an exploit that was discovered which would allow for an attacker to elevate their privileges if an unsecured LDAP request was able to be intercepted by way of man-in-the-middle attack.
 
