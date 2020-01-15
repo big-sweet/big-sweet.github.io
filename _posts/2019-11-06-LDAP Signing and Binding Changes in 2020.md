@@ -35,7 +35,7 @@ Number of Negotiate/Kerberos/NTLM/Digest binds performed without signing: 0
 Note the two lines at the bottom which will tell you the number of requests, this is important for the next step.
 
 ## Identifying Affected Services and Applications
-Of course you'll want to identify which hosts are needing remediation before patching your domain controllers. Otherwise you're gong to end up with services and applications that will not authenticate properly to your domain.
+Of course you'll want to identify which hosts are needing remediation before patching your domain controllers. Otherwise you're going to end up with services and applications that will not authenticate properly to your domain.
 ### Increasing LDAP Interface Diagnostic Levels
 **WARNING**: This setting has the capability to generate a tremendous amount of logs. If the number of requests being made from the last two lines of the Event ID 2887 log is high, consider only turning on this setting for a fixed amount of time (10 minutes should do).
 
