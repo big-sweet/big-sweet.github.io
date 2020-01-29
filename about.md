@@ -14,20 +14,8 @@ description: >
 # You can show the description on the page by deleting this line:
 hide_description: true
 
-# TODO
-image: /assets/img/egghead.png
 ---
-Windows and cloud specialized former sysadmin with a background in development and a passion for security.
-
-Currently architecting and delivering Microsoft centric projects as a consultant.
-
-Located in Calgary, Alberta, Canada. 
+Windows and cloud specialized sysadmin with a background in development.
 
 You can find me actively contributing on NetSec Focus, a security focused group of like-minded technical individuals.
 Feel free to join us on the Mattermost chat client **[here](https://mm.netsecfocus.com/join)**
-
-
-
-bigsweet, a silly nickname for a big, kind guy with a beard.
-
-![](./assets/img/egghead.png)
